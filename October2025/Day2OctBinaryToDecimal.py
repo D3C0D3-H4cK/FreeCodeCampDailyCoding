@@ -8,9 +8,5 @@ def to_binary(decimal):
     listStr = [str(numero) for numero in reversed(binario)]
     resultado = "".join(listStr)
     print(resultado)
-        
-    
-        
-        
-        
+   
 to_binary(50)
